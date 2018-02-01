@@ -24,12 +24,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvR-6l-cLe">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="547"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xio-ad-0sK">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="Xio-ad-0sK">
                                         <rect key="frame" x="67" y="153" width="240" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ld1-uA-IW4">
-                                        <rect key="frame" x="166" y="81" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ld1-uA-IW4">
+                                        <rect key="frame" x="8" y="47" width="359" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -73,8 +73,9 @@
                     </view>
                     <connections>
                         <outlet property="btnNo" destination="WUv-61-da9" id="VRr-dc-vtb"/>
-                        <outlet property="btnNoAction" destination="WUv-61-da9" id="ym6-QM-NcV"/>
                         <outlet property="btnSi" destination="E1Y-j9-YHC" id="Eej-iR-hHt"/>
+                        <outlet property="imgPreguntas" destination="Xio-ad-0sK" id="PyK-13-er2"/>
+                        <outlet property="lblPregunta" destination="ld1-uA-IW4" id="XKH-TX-YT9"/>
                         <outlet property="vwContenedor" destination="gvR-6l-cLe" id="gON-Kx-s4n"/>
                     </connections>
                 </viewController>
@@ -83,4 +84,7 @@
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="smile" width="512" height="512"/>
+    </resources>
 </document>
